@@ -1,0 +1,62 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: center / cover url(../img/sf2-world.gif);
+}
+
+h1 {
+  margin: 15% 0 1% 0;
+  padding: 0.5%;
+  font-size: 3rem;
+  text-align: center;
+  color: gold;
+  background: blue;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+
+body > div {
+  display: flex;
+  justify-content: center;
+}
+
+body > div > img {
+  width: 30%;
+  margin-top: 3%;
+}
+
+.container-1 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-col {
+  flex-basis: 5%;
+  background: blue;
+  border: 1px solid white;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.container-1-col img {
+  width: 100%;
+  height: 100%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
